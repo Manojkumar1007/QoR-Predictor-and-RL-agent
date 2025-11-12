@@ -1,0 +1,2629 @@
+hitesh@hitesh-HP-EliteDesk-800-G2-TWR:~/abc$ python3 rl.py --mode train --episodes 5000
+Initial area for aes_orig.bench: 28925
+Initial area for i2c_orig.bench: 1169
+Initial area for tv80_orig.bench: 11328
+Starting training for 5000 episodes...
+Episode 10/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23933
+  Improvement: 17.26%
+  Recipe: strash; resub; refactor -z; resub; balance; fraig; refactor; resyn; refactor -z; rewrite -z; refactor; resyn; resub; refactor -z; resub -z
+--------------------------------------------------
+Episode 20/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23239
+  Improvement: 19.66%
+  Recipe: strash; resyn; resyn; fraig; rewrite -z; refactor -z; resyn; refactor; balance; rewrite -z; strash; resyn; resub -z; rewrite -z; resyn2
+--------------------------------------------------
+Episode 30/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8425
+  Improvement: 25.63%
+  Recipe: strash; refactor -z; resub -z; strash; resub -z; balance; resyn; fraig; balance; strash; resub -z; balance; refactor; resyn; refactor -z
+--------------------------------------------------
+Episode 40/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 890
+  Improvement: 23.87%
+  Recipe: strash; balance; balance; rewrite -z; fraig; rewrite -z; resyn2; resub; balance; refactor
+--------------------------------------------------
+Episode 50/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 887
+  Improvement: 24.12%
+  Recipe: strash; fraig; balance; fraig; resyn2; resyn2; refactor -z; resub -z; resub -z; balance
+--------------------------------------------------
+Episode 60/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8625
+  Improvement: 23.86%
+  Recipe: strash; strash; rewrite; balance; resyn; balance; fraig; balance; resyn; balance; resyn; balance; refactor; rewrite; refactor
+--------------------------------------------------
+Episode 70/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8967
+  Improvement: 20.84%
+  Recipe: strash; resub -z; rewrite; refactor -z; rewrite -z; resub; resyn; balance; resyn; balance; resub -z; balance; balance; resub -z; refactor -z
+--------------------------------------------------
+Episode 80/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 892
+  Improvement: 23.70%
+  Recipe: strash; fraig; resub -z; balance; rewrite; resub -z; balance; resub -z; refactor -z; balance; resyn; resyn2; refactor -z; balance; refactor -z
+--------------------------------------------------
+Episode 90/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23791
+  Improvement: 17.75%
+  Recipe: strash; resyn2; resyn2; fraig; fraig; balance; resyn; refactor; resyn2; balance; resub -z; strash; resub -z; balance; refactor -z
+--------------------------------------------------
+Episode 100/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 894
+  Improvement: 23.52%
+  Recipe: strash; rewrite -z; resub -z; fraig; resyn; strash; refactor -z; refactor; resub -z; resyn; resyn2; rewrite -z; resyn2; refactor; strash
+--------------------------------------------------
+Model saved to models/model_episode_100.pth
+Results saved to results/results_episode_100.json
+Episode 110/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 977
+  Improvement: 16.42%
+  Recipe: strash; resyn; resyn; rewrite; balance; resub -z; strash; rewrite; resub -z
+--------------------------------------------------
+Episode 120/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 922
+  Improvement: 21.13%
+  Recipe: strash; rewrite; refactor; resub -z; resub -z; balance; balance; balance; rewrite; balance; resub; fraig; rewrite -z; balance; resub -z
+--------------------------------------------------
+Episode 130/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8628
+  Improvement: 23.83%
+  Recipe: strash; resyn; refactor; rewrite -z; resyn; refactor; refactor; strash; rewrite -z; balance; fraig; balance; resyn; rewrite -z; rewrite -z
+--------------------------------------------------
+Episode 140/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8887
+  Improvement: 21.55%
+  Recipe: strash; refactor; refactor -z; rewrite -z; refactor; resub; balance; balance; resyn; rewrite -z; refactor; resub; resyn; balance; rewrite -z
+--------------------------------------------------
+Episode 150/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8535
+  Improvement: 24.66%
+  Recipe: strash; resyn; resyn; strash; refactor; resub; strash; balance; balance; strash; fraig; rewrite -z; refactor; resyn; balance
+--------------------------------------------------
+Episode 160/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8606
+  Improvement: 24.03%
+  Recipe: strash; resyn; refactor -z; rewrite; balance; resyn; fraig; resub -z; refactor -z; resyn; rewrite -z; refactor -z; resub -z; fraig; strash
+--------------------------------------------------
+Episode 170/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 905
+  Improvement: 22.58%
+  Recipe: strash; resyn2; resyn; rewrite -z; balance; refactor -z; fraig; refactor; balance; fraig; resub -z; rewrite; strash; resub
+--------------------------------------------------
+Episode 180/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23462
+  Improvement: 18.89%
+  Recipe: strash; refactor; resyn; refactor; rewrite -z; resyn2; rewrite -z; refactor; refactor -z; rewrite -z; rewrite -z; rewrite -z; fraig; refactor; resyn2
+--------------------------------------------------
+Episode 190/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 9016
+  Improvement: 20.41%
+  Recipe: strash; balance; refactor; strash; rewrite -z; rewrite; resub; rewrite -z; rewrite -z; rewrite -z; resyn; balance; refactor; resyn; rewrite
+--------------------------------------------------
+Episode 200/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23379
+  Improvement: 19.17%
+  Recipe: strash; balance; resyn; resyn2; refactor; rewrite -z; resyn; resyn; rewrite; resyn; resub -z; balance; resyn; resub; refactor
+--------------------------------------------------
+Model saved to models/model_episode_200.pth
+Results saved to results/results_episode_200.json
+Episode 210/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22880
+  Improvement: 20.90%
+  Recipe: strash; rewrite -z; balance; resyn2; rewrite -z; refactor -z; refactor -z; resyn; fraig; resyn; resub; resyn2; rewrite -z; resyn; refactor -z
+--------------------------------------------------
+Episode 220/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23874
+  Improvement: 17.46%
+  Recipe: strash; resub -z; rewrite -z; rewrite; rewrite; rewrite -z; resyn; refactor; balance; refactor; refactor; resyn; rewrite; balance; refactor
+--------------------------------------------------
+Episode 230/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; rewrite; refactor; refactor; rewrite; resyn; resub; resyn2; resyn; strash; balance
+--------------------------------------------------
+Episode 240/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 9168
+  Improvement: 19.07%
+  Recipe: strash; strash; resyn; resub -z; strash; resub; resub -z; rewrite -z; strash; resyn; resyn; strash; balance; resyn; resyn
+--------------------------------------------------
+Episode 250/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23080
+  Improvement: 20.21%
+  Recipe: strash; balance; resyn; resyn; resyn; refactor -z; resub -z; resub; resyn2; refactor -z; balance; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 260/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23198
+  Improvement: 19.80%
+  Recipe: strash; resyn; resyn; resub; rewrite; resyn; balance; refactor -z; balance; resyn; resyn; refactor -z; resyn; resyn; resyn
+--------------------------------------------------
+Episode 270/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22850
+  Improvement: 21.00%
+  Recipe: strash; rewrite -z; resyn; resyn; resub; resyn; resyn; resyn; resyn; resyn; resyn; resub -z; resyn; resyn; strash
+--------------------------------------------------
+Episode 280/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23000
+  Improvement: 20.48%
+  Recipe: strash; resub -z; resyn; resyn; resyn; resyn; rewrite -z; rewrite -z; refactor -z; resyn; resyn; resyn; rewrite; resyn; resyn
+--------------------------------------------------
+Episode 290/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23026
+  Improvement: 20.39%
+  Recipe: strash; resyn; resyn2; refactor; resub -z; refactor -z; resyn; resyn; resyn; resyn; resyn; refactor -z; refactor; resyn; resyn
+--------------------------------------------------
+Episode 300/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23290
+  Improvement: 19.48%
+  Recipe: strash; resyn; refactor -z; rewrite; rewrite -z; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn; refactor; rewrite -z
+--------------------------------------------------
+Model saved to models/model_episode_300.pth
+Results saved to results/results_episode_300.json
+Episode 310/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22874
+  Improvement: 20.92%
+  Recipe: strash; resyn; resyn; resyn; resub; resyn; resyn; rewrite -z; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 320/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22722
+  Improvement: 21.45%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; rewrite -z; rewrite -z; resyn2; strash; resyn; resyn; resyn
+--------------------------------------------------
+Episode 330/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8797
+  Improvement: 22.34%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn2; resyn; refactor; resyn; resyn; rewrite -z; resyn; resyn; refactor -z; resyn
+--------------------------------------------------
+Episode 340/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22991
+  Improvement: 20.52%
+  Recipe: strash; resyn; resyn; rewrite -z; refactor -z; resyn; resyn; resyn; strash; resyn; resyn; resyn; resyn; resyn; rewrite
+--------------------------------------------------
+Episode 350/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23093
+  Improvement: 20.16%
+  Recipe: strash; resyn; resyn; rewrite -z; resyn; rewrite -z; resyn; resyn; resub -z; resyn; resyn; resyn; balance; refactor; resyn
+--------------------------------------------------
+Episode 360/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22838
+  Improvement: 21.04%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; balance; resyn; resyn; resyn; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 370/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8890
+  Improvement: 21.52%
+  Recipe: strash; resyn; rewrite -z; rewrite -z; balance; resyn; strash; balance; resyn; resyn; resub; refactor -z; resyn; resyn; resyn
+--------------------------------------------------
+Episode 380/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 910
+  Improvement: 22.16%
+  Recipe: strash; resyn2; strash; resyn; resyn; balance; resyn2; strash; refactor -z; refactor -z
+--------------------------------------------------
+Episode 390/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 898
+  Improvement: 23.18%
+  Recipe: strash; resyn; refactor; balance; resyn2; resyn; resyn; resyn; resyn; fraig; rewrite -z; resyn; resyn; resyn2; refactor -z
+--------------------------------------------------
+Episode 400/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 910
+  Improvement: 22.16%
+  Recipe: strash; resyn; resyn; resyn; balance; refactor -z; resyn; resub -z; refactor; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Model saved to models/model_episode_400.pth
+Results saved to results/results_episode_400.json
+Episode 410/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8819
+  Improvement: 22.15%
+  Recipe: strash; resyn; rewrite -z; resyn; resyn; resyn; resyn; rewrite -z; resyn; resyn; resyn; refactor -z; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 420/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 976
+  Improvement: 16.51%
+  Recipe: strash; resyn; resyn; rewrite; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 430/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8321
+  Improvement: 26.54%
+  Recipe: strash; resyn; resyn; resyn; refactor -z; resyn; resyn2; resyn2; resyn; resyn; fraig; resyn; refactor -z; resyn; refactor -z
+--------------------------------------------------
+Episode 440/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23097
+  Improvement: 20.15%
+  Recipe: strash; resyn; rewrite -z; resyn; rewrite; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn; strash; resyn; resyn
+--------------------------------------------------
+Episode 450/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 23156
+  Improvement: 19.94%
+  Recipe: strash; resyn; strash; refactor -z; refactor -z; resyn2; strash; resub -z; refactor -z; resyn; resyn2; resyn; resyn; rewrite -z; resyn
+--------------------------------------------------
+Episode 460/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8783
+  Improvement: 22.47%
+  Recipe: strash; strash; resyn2; resub -z; rewrite -z; resyn; resyn; resyn2; resyn; resyn; refactor -z; rewrite; rewrite; resyn; resyn2
+--------------------------------------------------
+Episode 470/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22760
+  Improvement: 21.31%
+  Recipe: strash; resyn; resyn; resyn2; refactor -z; resyn; balance; resyn; refactor -z; resyn; resyn2; resyn2; resyn; resyn; refactor -z
+--------------------------------------------------
+Episode 480/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn2; refactor -z; rewrite -z; resyn; rewrite -z; fraig; fraig; resyn; fraig; strash; balance
+--------------------------------------------------
+Episode 490/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22952
+  Improvement: 20.65%
+  Recipe: strash; rewrite -z; resyn; resyn; strash; resyn; balance; refactor -z; balance; resyn; refactor -z; resyn2; refactor -z; balance; resyn
+--------------------------------------------------
+Episode 500/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8771
+  Improvement: 22.57%
+  Recipe: strash; resyn; resyn2; rewrite -z; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_500.pth
+Results saved to results/results_episode_500.json
+Episode 510/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22923
+  Improvement: 20.75%
+  Recipe: strash; resyn; resyn; resyn; resyn; refactor -z; resyn; resyn; resyn2; rewrite -z; refactor; rewrite; resyn; resyn; resyn
+--------------------------------------------------
+Episode 520/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resub -z; resyn; balance; resyn; resyn2; resyn; rewrite -z; resyn
+--------------------------------------------------
+Episode 530/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22685
+  Improvement: 21.57%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; fraig; resyn
+--------------------------------------------------
+Episode 540/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 894
+  Improvement: 23.52%
+  Recipe: strash; resyn; resyn; resyn2; fraig; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 550/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 900
+  Improvement: 23.01%
+  Recipe: strash; resyn; resyn2; balance; resyn2; fraig; resyn; resyn; resyn; resub -z
+--------------------------------------------------
+Episode 560/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 906
+  Improvement: 22.50%
+  Recipe: strash; strash; resyn; resyn2; resub; resyn; rewrite -z; resyn; resyn2; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 570/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; rewrite; resyn; rewrite -z; resyn2; resyn; refactor; resyn
+--------------------------------------------------
+Episode 580/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22758
+  Improvement: 21.32%
+  Recipe: strash; strash; resyn; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2; rewrite; resyn2; balance; resyn; strash
+--------------------------------------------------
+Episode 590/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; refactor; resyn
+--------------------------------------------------
+Episode 600/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8653
+  Improvement: 23.61%
+  Recipe: strash; resyn; resyn; resyn; resyn2; resyn; rewrite -z; resyn; resyn; resyn2; rewrite -z; refactor -z; refactor -z; resyn; resyn
+--------------------------------------------------
+Model saved to models/model_episode_600.pth
+Results saved to results/results_episode_600.json
+Episode 610/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22818
+  Improvement: 21.11%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; rewrite -z; resyn; resyn; resyn; resyn2; strash; resyn2; refactor -z; rewrite -z
+--------------------------------------------------
+Episode 620/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22696
+  Improvement: 21.54%
+  Recipe: strash; resyn; resyn2; resyn; resub -z; resyn; resyn2; resyn; resyn2; resyn2; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 630/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8875
+  Improvement: 21.65%
+  Recipe: strash; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; refactor -z; resyn; resyn
+--------------------------------------------------
+Episode 640/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 976
+  Improvement: 16.51%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 650/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22951
+  Improvement: 20.65%
+  Recipe: strash; resyn; refactor -z; resyn; resyn; resyn2; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 660/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 897
+  Improvement: 23.27%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; fraig; balance; resyn2; resyn; resyn; resyn
+--------------------------------------------------
+Episode 670/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn2; resyn; refactor -z; resyn
+--------------------------------------------------
+Episode 680/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; resyn; resyn; refactor -z; resyn2; resyn; resyn; rewrite -z; resyn2; resyn2
+--------------------------------------------------
+Episode 690/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22897
+  Improvement: 20.84%
+  Recipe: strash; resyn; resyn; resyn; refactor; resyn; resub -z; resyn; resyn; strash; resyn2; resyn; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 700/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8370
+  Improvement: 26.11%
+  Recipe: strash; resyn; resyn; refactor -z; refactor -z; resyn; balance; refactor -z; resyn; resyn; resyn2; fraig; resyn; resyn; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_700.pth
+Results saved to results/results_episode_700.json
+Episode 710/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 976
+  Improvement: 16.51%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 720/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 923
+  Improvement: 21.04%
+  Recipe: strash; resub -z; resyn; resyn; rewrite -z; resyn; rewrite -z; refactor -z; resyn; resyn; resyn; rewrite -z; resub -z; resyn; resub -z
+--------------------------------------------------
+Episode 730/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8343
+  Improvement: 26.35%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn; resyn; resyn; balance; fraig; resyn2; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 740/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8257
+  Improvement: 27.11%
+  Recipe: strash; resyn; rewrite -z; resyn; resyn; fraig; resyn; resyn; resyn2; resyn2; refactor -z; resub -z; resyn; resyn; refactor -z
+--------------------------------------------------
+Episode 750/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; resyn2; resyn2; resyn; resyn; balance
+--------------------------------------------------
+Episode 760/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22860
+  Improvement: 20.97%
+  Recipe: strash; resyn2; resyn; resyn; fraig; resyn; refactor -z; resyn; resyn; resyn; resyn2; resyn; resub; rewrite -z; resyn2
+--------------------------------------------------
+Episode 770/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; resyn; resyn; refactor; strash; resyn; refactor -z; resyn2; rewrite -z; resyn; balance
+--------------------------------------------------
+Episode 780/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22759
+  Improvement: 21.32%
+  Recipe: strash; resyn; resyn; strash; resyn; resyn; rewrite -z; resyn; refactor -z; resyn2; resub -z; resyn; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 790/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22699
+  Improvement: 21.52%
+  Recipe: strash; resyn; resyn2; resyn2; refactor; resyn; resyn2; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 800/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn; resyn; resyn; rewrite -z; resyn; resyn; resyn2; resyn; rewrite -z; resyn
+--------------------------------------------------
+Model saved to models/model_episode_800.pth
+Results saved to results/results_episode_800.json
+Episode 810/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22719
+  Improvement: 21.46%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn2; resyn2; resub -z; resyn; resyn2; resyn2; resyn; resyn2; resyn; refactor -z
+--------------------------------------------------
+Episode 820/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22713
+  Improvement: 21.48%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; fraig
+--------------------------------------------------
+Episode 830/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22561
+  Improvement: 22.00%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn2; resyn
+--------------------------------------------------
+Episode 840/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8815
+  Improvement: 22.18%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn2; resyn; refactor; resyn2; resyn2
+--------------------------------------------------
+Episode 850/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8798
+  Improvement: 22.33%
+  Recipe: strash; resyn; refactor -z; resyn; resyn2; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 860/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 915
+  Improvement: 21.73%
+  Recipe: strash; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 870/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn2; resyn; resyn; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 880/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; resyn; resyn2; refactor -z; resyn; resyn; strash; resyn
+--------------------------------------------------
+Episode 890/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; refactor -z; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 900/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8805
+  Improvement: 22.27%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn; refactor -z; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Model saved to models/model_episode_900.pth
+Results saved to results/results_episode_900.json
+Episode 910/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 907
+  Improvement: 22.41%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 920/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8777
+  Improvement: 22.52%
+  Recipe: strash; resyn; resyn; resyn; balance; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 930/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 976
+  Improvement: 16.51%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 940/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8846
+  Improvement: 21.91%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 950/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8776
+  Improvement: 22.53%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn
+--------------------------------------------------
+Episode 960/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22867
+  Improvement: 20.94%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 970/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22683
+  Improvement: 21.58%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn
+--------------------------------------------------
+Episode 980/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; resyn2; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 990/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8768
+  Improvement: 22.60%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 1000/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22716
+  Improvement: 21.47%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Model saved to models/model_episode_1000.pth
+Results saved to results/results_episode_1000.json
+Episode 1010/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 976
+  Improvement: 16.51%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1020/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22900
+  Improvement: 20.83%
+  Recipe: strash; resyn; rewrite -z; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 1030/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8769
+  Improvement: 22.59%
+  Recipe: strash; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn; resyn; resyn; resyn2; resyn
+--------------------------------------------------
+Episode 1040/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22734
+  Improvement: 21.40%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn; resyn2; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1050/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 913
+  Improvement: 21.90%
+  Recipe: strash; resyn; resyn; resyn2; resyn2; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1060/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22602
+  Improvement: 21.86%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn; resyn; resyn2; resyn
+--------------------------------------------------
+Episode 1070/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 920
+  Improvement: 21.30%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1080/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8770
+  Improvement: 22.58%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1090/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1100/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8680
+  Improvement: 23.38%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn; resyn; resyn; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Model saved to models/model_episode_1100.pth
+Results saved to results/results_episode_1100.json
+Episode 1110/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; resyn; resyn; resyn2; resyn2; resyn; resyn; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1120/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22528
+  Improvement: 22.12%
+  Recipe: strash; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn2; resyn; resyn2; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 1130/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22755
+  Improvement: 21.33%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resyn; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1140/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8654
+  Improvement: 23.61%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn; resyn2; resyn2; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1150/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8719
+  Improvement: 23.03%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; refactor -z; resyn; resyn2; resub -z; resyn; resyn
+--------------------------------------------------
+Episode 1160/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 910
+  Improvement: 22.16%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resyn; resyn2; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 1170/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22433
+  Improvement: 22.44%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn; resyn; resyn; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1180/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; resyn; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1190/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn; resyn; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1200/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 907
+  Improvement: 22.41%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn2; resyn2; refactor -z; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1200.pth
+Results saved to results/results_episode_1200.json
+Episode 1210/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8654
+  Improvement: 23.61%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn; resyn2; resyn2; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1220/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8757
+  Improvement: 22.70%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1230/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1240/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1250/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8660
+  Improvement: 23.55%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1260/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn; resyn; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1270/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1280/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8660
+  Improvement: 23.55%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1290/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22702
+  Improvement: 21.51%
+  Recipe: strash; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1300/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1300.pth
+Results saved to results/results_episode_1300.json
+Episode 1310/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22654
+  Improvement: 21.68%
+  Recipe: strash; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn; resyn; resyn; resyn; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1320/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22613
+  Improvement: 21.82%
+  Recipe: strash; resyn; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn2; strash; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1330/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn; resyn
+--------------------------------------------------
+Episode 1340/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn; resyn; resyn; resyn; resyn2; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 1350/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1360/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 908
+  Improvement: 22.33%
+  Recipe: strash; resyn; resyn; resyn2; resyn2; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 1370/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22778
+  Improvement: 21.25%
+  Recipe: strash; resyn2; resyn; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn; resyn; resyn
+--------------------------------------------------
+Episode 1380/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8697
+  Improvement: 23.23%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn; resyn2; resyn; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1390/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22650
+  Improvement: 21.69%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; refactor; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1400/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22737
+  Improvement: 21.39%
+  Recipe: strash; resyn2; resyn; resyn; resyn; resyn2; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn
+--------------------------------------------------
+Model saved to models/model_episode_1400.pth
+Results saved to results/results_episode_1400.json
+Episode 1410/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 910
+  Improvement: 22.16%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn; resyn; rewrite -z; resyn2; resyn2
+--------------------------------------------------
+Episode 1420/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8684
+  Improvement: 23.34%
+  Recipe: strash; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn2; rewrite -z; resyn2; resyn2; resyn; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1430/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22641
+  Improvement: 21.73%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1440/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1450/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22573
+  Improvement: 21.96%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1460/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22644
+  Improvement: 21.71%
+  Recipe: strash; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 1470/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 909
+  Improvement: 22.24%
+  Recipe: strash; resyn2; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1480/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8659
+  Improvement: 23.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1490/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8688
+  Improvement: 23.31%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1500/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8745
+  Improvement: 22.80%
+  Recipe: strash; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1500.pth
+Results saved to results/results_episode_1500.json
+Episode 1510/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8720
+  Improvement: 23.02%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn; resyn2
+--------------------------------------------------
+Episode 1520/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; refactor -z; resyn; resyn2; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1530/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8666
+  Improvement: 23.50%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1540/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22573
+  Improvement: 21.96%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1550/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1560/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1570/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8675
+  Improvement: 23.42%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1580/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8664
+  Improvement: 23.52%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1590/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1600/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8634
+  Improvement: 23.78%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1600.pth
+Results saved to results/results_episode_1600.json
+Episode 1610/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1620/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1630/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1640/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8693
+  Improvement: 23.26%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1650/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8617
+  Improvement: 23.93%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resub; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1660/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1670/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1680/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1690/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22651
+  Improvement: 21.69%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1700/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1700.pth
+Results saved to results/results_episode_1700.json
+Episode 1710/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1720/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1730/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22721
+  Improvement: 21.45%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1740/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1750/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1760/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1770/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8674
+  Improvement: 23.43%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1780/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1790/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 911
+  Improvement: 22.07%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1800/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_1800.pth
+Results saved to results/results_episode_1800.json
+Episode 1810/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1820/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1830/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1840/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1850/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8752
+  Improvement: 22.74%
+  Recipe: strash; resyn; resyn; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1860/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 1870/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22685
+  Improvement: 21.57%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1880/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1890/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8722
+  Improvement: 23.00%
+  Recipe: strash; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1900/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8659
+  Improvement: 23.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Model saved to models/model_episode_1900.pth
+Results saved to results/results_episode_1900.json
+Episode 1910/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1920/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 914
+  Improvement: 21.81%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1930/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8656
+  Improvement: 23.59%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2
+--------------------------------------------------
+Episode 1940/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1950/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1960/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8651
+  Improvement: 23.63%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1970/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 1980/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22644
+  Improvement: 21.71%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn
+--------------------------------------------------
+Episode 1990/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2000/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2000.pth
+Results saved to results/results_episode_2000.json
+Episode 2010/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2020/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22685
+  Improvement: 21.57%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2030/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2040/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2050/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2060/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2070/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2080/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2090/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2100/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2100.pth
+Results saved to results/results_episode_2100.json
+Episode 2110/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2120/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2130/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2140/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2150/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2160/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2170/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2180/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2190/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8225
+  Improvement: 27.39%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; fraig; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2200/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22547
+  Improvement: 22.05%
+  Recipe: strash; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2200.pth
+Results saved to results/results_episode_2200.json
+Episode 2210/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2220/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2230/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22630
+  Improvement: 21.76%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2240/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2250/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2260/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2270/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2280/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2290/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2300/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2300.pth
+Results saved to results/results_episode_2300.json
+Episode 2310/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2320/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2330/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2340/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2350/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2360/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2370/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2380/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2390/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2400/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2400.pth
+Results saved to results/results_episode_2400.json
+Episode 2410/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2420/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2430/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2440/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2450/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2460/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2470/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2480/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2490/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2500/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2500.pth
+Results saved to results/results_episode_2500.json
+Episode 2510/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2520/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2530/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2540/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8664
+  Improvement: 23.52%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2
+--------------------------------------------------
+Episode 2550/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2560/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2570/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2580/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2590/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2600/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2600.pth
+Results saved to results/results_episode_2600.json
+Episode 2610/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2620/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2630/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2640/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2650/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2660/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2670/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2680/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2690/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2700/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2700.pth
+Results saved to results/results_episode_2700.json
+Episode 2710/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2720/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2730/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2740/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8770
+  Improvement: 22.58%
+  Recipe: strash; resyn2; resyn; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2750/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2760/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2770/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2780/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2790/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2800/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2800.pth
+Results saved to results/results_episode_2800.json
+Episode 2810/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2820/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2830/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2840/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2850/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2860/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2870/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2880/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2890/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2900/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_2900.pth
+Results saved to results/results_episode_2900.json
+Episode 2910/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2920/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2930/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2940/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2950/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2960/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2970/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2980/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 2990/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3000/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3000.pth
+Results saved to results/results_episode_3000.json
+Episode 3010/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3020/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3030/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3040/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3050/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3060/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3070/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3080/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3090/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3100/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3100.pth
+Results saved to results/results_episode_3100.json
+Episode 3110/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3120/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3130/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3140/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3150/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3160/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3170/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3180/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3190/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3200/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3200.pth
+Results saved to results/results_episode_3200.json
+Episode 3210/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3220/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3230/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3240/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3250/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3260/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3270/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3280/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3290/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3300/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3300.pth
+Results saved to results/results_episode_3300.json
+Episode 3310/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3320/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3330/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3340/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3350/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3360/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3370/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3380/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3390/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3400/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22721
+  Improvement: 21.45%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3400.pth
+Results saved to results/results_episode_3400.json
+Episode 3410/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3420/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3430/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3440/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3450/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3460/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3470/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3480/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3490/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3500/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3500.pth
+Results saved to results/results_episode_3500.json
+Episode 3510/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3520/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3530/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3540/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3550/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3560/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3570/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3580/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3590/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3600/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3600.pth
+Results saved to results/results_episode_3600.json
+Episode 3610/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3620/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3630/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3640/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3650/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3660/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3670/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3680/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3690/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3700/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3700.pth
+Results saved to results/results_episode_3700.json
+Episode 3710/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3720/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3730/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3740/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3750/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3760/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3770/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3780/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3790/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3800/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3800.pth
+Results saved to results/results_episode_3800.json
+Episode 3810/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3820/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3830/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3840/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3850/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3860/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3870/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3880/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3890/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3900/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_3900.pth
+Results saved to results/results_episode_3900.json
+Episode 3910/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3920/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3930/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3940/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3950/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3960/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3970/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3980/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 3990/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4000/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4000.pth
+Results saved to results/results_episode_4000.json
+Episode 4010/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4020/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4030/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4040/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4050/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4060/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4070/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4080/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4090/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4100/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4100.pth
+Results saved to results/results_episode_4100.json
+Episode 4110/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4120/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4130/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4140/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4150/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4160/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4170/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4180/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4190/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4200/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4200.pth
+Results saved to results/results_episode_4200.json
+Episode 4210/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4220/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4230/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4240/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4250/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4260/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4270/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4280/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4290/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4300/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4300.pth
+Results saved to results/results_episode_4300.json
+Episode 4310/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4320/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4330/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4340/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4350/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4360/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4370/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4380/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4390/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4400/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4400.pth
+Results saved to results/results_episode_4400.json
+Episode 4410/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4420/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4430/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4440/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4450/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4460/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4470/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4480/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4490/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4500/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4500.pth
+Results saved to results/results_episode_4500.json
+Episode 4510/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4520/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4530/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4540/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4550/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4560/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4570/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4580/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4590/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4600/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4600.pth
+Results saved to results/results_episode_4600.json
+Episode 4610/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4620/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4630/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4640/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4650/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4660/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4670/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4680/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4690/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4700/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4700.pth
+Results saved to results/results_episode_4700.json
+Episode 4710/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4720/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4730/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4740/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4750/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4760/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4770/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4780/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4790/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4800/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4800.pth
+Results saved to results/results_episode_4800.json
+Episode 4810/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4820/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4830/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4840/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4850/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4860/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4870/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4880/5000 - Design: tv80_orig.bench
+  Initial area: 11328, Final area: 8661
+  Improvement: 23.54%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4890/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4900/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_4900.pth
+Results saved to results/results_episode_4900.json
+Episode 4910/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4920/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4930/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4940/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4950/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4960/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4970/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4980/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 4990/5000 - Design: i2c_orig.bench
+  Initial area: 1169, Final area: 917
+  Improvement: 21.56%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Episode 5000/5000 - Design: aes_orig.bench
+  Initial area: 28925, Final area: 22638
+  Improvement: 21.74%
+  Recipe: strash; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2; resyn2
+--------------------------------------------------
+Model saved to models/model_episode_5000.pth
+Results saved to results/results_episode_5000.json
+Model saved to models/final_model.pth
+Results saved to results/final_results.json
+Best recipes saved to results/best_recipes.json
+
+===== Best Synthesis Recipes =====
+Design: tv80_orig.bench
+  Initial area: 11328
+  Final area: 8206
+  Improvement: 27.56%
+  Recipe: strash; resyn; refactor -z; fraig; resyn; rewrite; rewrite -z; refactor -z; resyn2; resyn; resyn2; resyn; refactor -z; rewrite -z; resyn2
+--------------------------------------------------
+Design: aes_orig.bench
+  Initial area: 28925
+  Final area: 22156
+  Improvement: 23.40%
+  Recipe: strash; refactor -z; refactor -z; rewrite; resyn2; resyn; resyn; resyn; strash; resyn2; resyn2; resyn; resyn; resyn2; resyn
+--------------------------------------------------
+Design: i2c_orig.bench
+  Initial area: 1169
+  Final area: 876
+  Improvement: 25.06%
+  Recipe: strash; fraig; rewrite -z; refactor -z; resyn; resyn; resyn; resub; rewrite; resyn; balance; resyn2; balance; balance; resyn
+--------------------------------------------------
+

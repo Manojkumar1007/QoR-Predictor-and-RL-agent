@@ -1,0 +1,17 @@
+{
+  "tv80_orig.bench": {
+    "recipe": "strash; resyn; refactor -z; fraig; resyn; rewrite; rewrite -z; refactor -z; resyn2; resyn; resyn2; resyn; refactor -z; rewrite -z; resyn2",
+    "final_area": 8206,
+    "improvement": 27.56002824858757
+  },
+  "aes_orig.bench": {
+    "recipe": "strash; refactor -z; refactor -z; rewrite; resyn2; resyn; resyn; resyn; strash; resyn2; resyn2; resyn; resyn; resyn2; resyn",
+    "final_area": 22156,
+    "improvement": 23.4019014693172
+  },
+  "i2c_orig.bench": {
+    "recipe": "strash; fraig; rewrite -z; refactor -z; resyn; resyn; resyn; resub; rewrite; resyn; balance; resyn2; balance; balance; resyn",
+    "final_area": 876,
+    "improvement": 25.064157399486742
+  }
+}
